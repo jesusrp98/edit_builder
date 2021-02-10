@@ -1,9 +1,11 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-///
+/// Entity which handles the current state of the [EditBuilder] widget.
 class EditCubit<T> extends Cubit<T> {
-  EditCubit(T state) : super(state);
+  EditCubit(T state)
+      : assert(state != null),
+        super(state);
 
-  ///
-  void setValue(T newState) => emit(newState);
+  /// Method which emits the new state to the cubit.
+  void update(T newState) => emit(newState);
 }
