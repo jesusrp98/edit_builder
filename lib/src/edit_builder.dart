@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-class EditCubit<T> extends Cubit<T> {
-  EditCubit(T state) : super(state);
+import 'edit_cubit.dart';
 
-  void setValue(T newState) => emit(newState);
-}
-
+///
 class EditBuilder<T> extends StatelessWidget {
+  ///
   final T initialValue;
+
+  ///
   final Widget Function(T, void Function(T)) builder;
 
   const EditBuilder({
