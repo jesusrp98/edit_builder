@@ -1,12 +1,10 @@
 name: edit_builder
-description: A new Flutter package project.
+description: Simple package to help on creation of edit pages.
 version: 0.0.1
-author:
-homepage:
+homepage: https://github.com/jesusrp98/flutter_packages/
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter:
@@ -16,5 +14,3 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-flutter:
