@@ -16,11 +16,13 @@ class EditBuilder<T> extends StatelessWidget {
   final T initialValue;
 
   /// Function that creates the widget controlled inside this view.
-  /// - First parameter: current value handled by the component.
-  /// - Second parameter: function that allows updating the current state.
+  /// - First parameter: BuildContext which has access to the cubit itself via
+  /// the widget tree.
+  /// - Second parameter: current value handled by the component.
+  /// - Third parameter: function that allows updating the current state.
   ///
   /// This field should not be [null].
-  final Widget Function(T, void Function(T)) builder;
+  final Widget Function(BuildContext, T, void Function(T)) builder;
 
   const EditBuilder({
     Key key,
@@ -36,6 +38,7 @@ class EditBuilder<T> extends StatelessWidget {
       create: (_) => EditCubit(initialValue),
       child: Builder(
         builder: (context) => builder(
+          context,
           context.read<EditCubit<T>>().state,
           context.watch<EditCubit<T>>().update,
         ),

@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
       ),
       body: EditBuilder<String>(
         initialValue: 'C++',
-        builder: (value, setValue) => Center(
+        builder: (context, value, setValue) => Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
