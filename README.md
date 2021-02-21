@@ -1,7 +1,7 @@
 # Edit Builder
 
 [![Package](https://img.shields.io/pub/v/edit_builder.svg?style=for-the-badge)](https://pub.dartlang.org/packages/edit_builder)
-[![Build](https://img.shields.io/github/workflow/status/jesusrp98/edit_builder/Flutter%20Package%20CI?style=for-the-badge)](https://github.com/jesusrp98/big_tip/actions)
+[![Build](https://img.shields.io/github/workflow/status/jesusrp98/edit_builder/Flutter%20Package%20CI?style=for-the-badge)](https://github.com/jesusrp98/edit_builder/actions)
 [![License](https://img.shields.io/github/license/jesusrp98/edit_builder.svg?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 [![Patreon](https://img.shields.io/badge/Support-Patreon-orange.svg?style=for-the-badge)](https://www.patreon.com/jesusrp98)
 
