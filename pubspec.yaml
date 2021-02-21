@@ -1,6 +1,6 @@
 name: edit_builder
 description: Simple package to help on creation of edit pages.
-version: 0.0.1
+version: 0.1.0
 homepage: https://github.com/jesusrp98/flutter_packages/
 
 environment:
